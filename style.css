@@ -1,7 +1,61 @@
-body{ 
-  background-color: blueviolet;
+body { 
+  background-color: #fff;
+  display: block;
 }
 
-h1 {
-  text-transform: uppercase;
+#main {
+  display: block;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+
+#title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family:  sans-serif;
+  color: rgba(0, 0, 0, 0.8)
+  
+}
+
+article {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+p {
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.img-div{
+  background-color: #fff;
+  border: solid 30px white;
+}
+
+#image {  
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {  
+  font-family: sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#tribute-info
+{
+  margin-top: 50px;
+}
+h2 {
+  font-family: sans-serif; 
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8)
+
 }
